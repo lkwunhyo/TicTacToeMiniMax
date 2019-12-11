@@ -1,0 +1,69 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "NodeCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NodeCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeCounter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NodeCounter/1.0.0": {
+      "type": "project",
+      "path": "../NodeCounter/NodeCounter.csproj",
+      "msbuildProject": "../NodeCounter/NodeCounter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "NodeCounter >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lkwunhyo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
+    "restore": {
+      "projectUniqueName": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheory\\GameTheory.fsproj",
+      "projectName": "GameTheory",
+      "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheory\\GameTheory.fsproj",
+      "packagesPath": "C:\\Users\\lkwunhyo\\.nuget\\packages\\",
+      "outputPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheory\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lkwunhyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "projectReferences": {
+            "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\NodeCounter\\NodeCounter.csproj": {
+              "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\NodeCounter\\NodeCounter.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {}
+    }
+  }
+}

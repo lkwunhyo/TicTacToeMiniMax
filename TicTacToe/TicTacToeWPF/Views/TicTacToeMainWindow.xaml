@@ -1,0 +1,46 @@
+﻿<rxui:ReactiveWindow
+            xmlns:rxui="http://reactiveui.net"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:vms="clr-namespace:QUT;assembly=TicTacToeViewModel"
+            xmlns:local="clr-namespace:QUT"
+            x:Class="QUT.TicTacToeMainWindow"
+            x:TypeArguments="vms:TicTacToeViewModel"
+            ResizeMode="NoResize"
+            Title="Tic Tac Toe" 
+            Background="#75daff"
+            Width="1000" Height="850" 
+            mc:Ignorable="d">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="#eeeeee">
+            <Menu x:Name="Menu" DockPanel.Dock="Top" VerticalAlignment="Center">
+                <MenuItem Header="_New Game" VerticalAlignment="Center" Height="30">
+                    <MenuItem Header="2x2" x:Name="NewGame2x2"/>
+                    <MenuItem Header="3x3" x:Name="NewGame3x3"/>
+                    <MenuItem Header="4x4" x:Name="NewGame4x4"/>
+                </MenuItem>
+            </Menu>
+            <Label Content="Game Engine:" VerticalAlignment="Center"/>
+            <ComboBox x:Name="GameEngine" Width="300" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Label Content="{Binding}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Label Content="Human First?:" VerticalAlignment="Center"/>
+            <CheckBox x:Name="HumanFirst" VerticalAlignment="Center"/>
+            <Label x:Name="TimeElapsed" VerticalAlignment="Center" Padding="10"/>
+        </StackPanel>
+        <Label DockPanel.Dock="Bottom" x:Name="MessageLabel" Background="#eeeeee"/>
+        <ItemsControl x:Name="Board" Width="700" Height="700" Background="white">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate >
+                    <UniformGrid/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+    </DockPanel>
+</rxui:ReactiveWindow>

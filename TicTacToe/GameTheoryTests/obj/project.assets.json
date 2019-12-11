@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "GameTheory/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NodeCounter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTheory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTheory.dll": {}
+        }
+      },
+      "NodeCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NodeCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeCounter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameTheory/1.0.0": {
+      "type": "project",
+      "path": "../GameTheory/GameTheory.fsproj",
+      "msbuildProject": "../GameTheory/GameTheory.fsproj"
+    },
+    "NodeCounter/1.0.0": {
+      "type": "project",
+      "path": "../NodeCounter/NodeCounter.csproj",
+      "msbuildProject": "../NodeCounter/NodeCounter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.0": [
+      "GameTheory >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lkwunhyo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
+    "restore": {
+      "projectUniqueName": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheoryTests\\GameTheoryTests.fsproj",
+      "projectName": "GameTheoryTests",
+      "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheoryTests\\GameTheoryTests.fsproj",
+      "packagesPath": "C:\\Users\\lkwunhyo\\.nuget\\packages\\",
+      "outputPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheoryTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lkwunhyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "projectReferences": {
+            "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheory\\GameTheory.fsproj": {
+              "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\GameTheory\\GameTheory.fsproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.0": {}
+    }
+  }
+}

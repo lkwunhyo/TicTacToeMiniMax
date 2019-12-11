@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.0": {
+      "CSharpTicTacToeModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NodeCounter": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CSharpTicTacToeModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpTicTacToeModels.dll": {}
+        }
+      },
+      "FSharpTicTacToeModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GameTheory": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FSharpTicTacToeModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FSharpTicTacToeModels.dll": {}
+        }
+      },
+      "GameTheory/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NodeCounter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTheory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTheory.dll": {}
+        }
+      },
+      "NodeCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NodeCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeCounter.dll": {}
+        }
+      },
+      "TicTacToeModelInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TicTacToeModelInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicTacToeModelInterfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "path": "../CSharpTicTacToeModels/CSharpTicTacToeModels.csproj",
+      "msbuildProject": "../CSharpTicTacToeModels/CSharpTicTacToeModels.csproj"
+    },
+    "FSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "path": "../FSharpTicTacToeModels/FSharpTicTacToeModels.fsproj",
+      "msbuildProject": "../FSharpTicTacToeModels/FSharpTicTacToeModels.fsproj"
+    },
+    "GameTheory/1.0.0": {
+      "type": "project",
+      "path": "../GameTheory/GameTheory.fsproj",
+      "msbuildProject": "../GameTheory/GameTheory.fsproj"
+    },
+    "NodeCounter/1.0.0": {
+      "type": "project",
+      "path": "../NodeCounter/NodeCounter.csproj",
+      "msbuildProject": "../NodeCounter/NodeCounter.csproj"
+    },
+    "TicTacToeModelInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToeModelInterfaces/TicTacToeModelInterfaces.fsproj",
+      "msbuildProject": "../TicTacToeModelInterfaces/TicTacToeModelInterfaces.fsproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.0": [
+      "CSharpTicTacToeModels >= 1.0.0",
+      "FSharpTicTacToeModels >= 1.0.0",
+      "NodeCounter >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lkwunhyo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
+    "restore": {
+      "projectUniqueName": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\TicTacToeViewModel\\TicTacToeViewModel.csproj",
+      "projectName": "TicTacToeViewModel",
+      "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\TicTacToeViewModel\\TicTacToeViewModel.csproj",
+      "packagesPath": "C:\\Users\\lkwunhyo\\.nuget\\packages\\",
+      "outputPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\TicTacToeViewModel\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lkwunhyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "projectReferences": {
+            "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj": {
+              "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj"
+            },
+            "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\FSharpTicTacToeModels\\FSharpTicTacToeModels.fsproj": {
+              "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\FSharpTicTacToeModels\\FSharpTicTacToeModels.fsproj"
+            },
+            "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\NodeCounter\\NodeCounter.csproj": {
+              "projectPath": "E:\\lkwunhyo\\University\\CAB402\\TicTacToe\\NodeCounter\\NodeCounter.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netstandard2.0": {}
+    }
+  }
+}

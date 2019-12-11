@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NodeCounter\NodeCounter.csproj" />
+    <ProjectReference Include="..\TicTacToeModelInterfaces\TicTacToeModelInterfaces.fsproj" />
+	</ItemGroup>  
+
+</Project>
